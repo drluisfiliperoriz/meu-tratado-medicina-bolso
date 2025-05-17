@@ -1,0 +1,17 @@
+Failed to compile.
+
+./lib/openai.ts
+Module not found: Can't resolve 'openai'
+Did you mean './openai'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules, /usr/local/nvm/versions/node/v22.14.0/lib/node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./app/api/chat/route.ts
+
+
+> Build failed because of webpack errors
+error Command failed with exit code 1.

@@ -1,0 +1,7 @@
+yarn run v1.22.22
+$ next build
+   Loading config from /home/ubuntu/meu-tratado-app/app/next.config.js
+   Loading config from /home/ubuntu/meu-tratado-app/app/next.config.js
+   ▲ Next.js 15.3.2
+   - Environments: .env.local
+

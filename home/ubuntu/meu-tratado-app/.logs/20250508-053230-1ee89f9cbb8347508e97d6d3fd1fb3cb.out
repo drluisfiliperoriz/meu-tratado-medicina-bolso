@@ -1,0 +1,9 @@
+yarn run v1.22.22
+$ next build
+  ▲ Next.js 14.2.28
+  - Environments: .env.local
+  - Experiments (use with caution):
+    · outputFileTracingRoot
+
+   Creating an optimized production build ...
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.

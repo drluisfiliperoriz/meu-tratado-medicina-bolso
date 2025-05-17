@@ -1,0 +1,10 @@
+Failed to compile.
+
+./app/page.tsx
+Module not found: Can't resolve 'ai/react'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+> Build failed because of webpack errors
+error Command failed with exit code 1.

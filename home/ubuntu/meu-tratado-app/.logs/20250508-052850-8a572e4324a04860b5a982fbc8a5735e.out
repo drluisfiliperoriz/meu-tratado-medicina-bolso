@@ -1,0 +1,47 @@
+yarn run v1.22.22
+$ next dev
+  ▲ Next.js 14.2.28
+  - Local:        http://localhost:3000
+  - Experiments (use with caution):
+    · outputFileTracingRoot
+
+ ✓ Starting...
+ ✓ Ready in 2.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 5.3s (1066 modules)
+ HEAD / 200 in 5583ms
+ ✓ Compiled in 620ms (537 modules)
+ GET / 200 in 189ms
+ ○ Compiling /api/query ...
+ ✓ Compiled /api/query in 526ms (551 modules)
+ POST /api/query 500 in 630ms
+ POST /api/query 500 in 19ms
+ POST /api/query 500 in 17ms
+ GET / 200 in 149ms
+ GET / 200 in 77ms
+ GET / 200 in 75ms
+ GET / 200 in 56ms
+ POST /api/query 500 in 21ms
+   Reload env: .env.local
+   Reload env: .env.local
+ ✓ Compiled in 1278ms (1043 modules)
+ ✓ Compiled in 627ms (457 modules)
+ ✓ Compiled in 394ms (443 modules)
+ ✓ Compiled in 643ms (1059 modules)
+ ✓ Compiled in 257ms (538 modules)
+ ✓ Compiled in 789ms (1059 modules)
+ ✓ Compiled in 231ms (538 modules)
+ ✓ Compiled in 244ms (538 modules)
+ ✓ Compiled in 364ms (457 modules)
+ ✓ Compiled in 677ms (1037 modules)
+ ✓ Compiled in 596ms (1059 modules)
+ ✓ Compiled in 626ms (1059 modules)
+ ✓ Compiled in 269ms (538 modules)
+ ✓ Compiled in 745ms (1059 modules)
+ GET / 200 in 117ms
+ GET / 200 in 43ms
+ GET / 200 in 43ms
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 1032ms (143 modules)
+ POST /api/chat 500 in 1283ms
+[?25h

@@ -1,0 +1,39 @@
+yarn run v1.22.22
+$ next dev
+  ▲ Next.js 14.2.28
+  - Local:        http://localhost:3000
+  - Experiments (use with caution):
+    · outputFileTracingRoot
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+   We detected TypeScript in your project and reconfigured your tsconfig.json file for you. Strict-mode is set to false by default.
+   The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+   	- include was updated to add '.dev/types/**/*.ts'
+
+ ✓ Ready in 1564ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.9s (486 modules)
+ HEAD / 200 in 4095ms
+ ✓ Compiled in 433ms (247 modules)
+ GET / 200 in 70ms
+ ✓ Compiled in 374ms (455 modules)
+ ✓ Compiled in 633ms (477 modules)
+ ✓ Compiled in 882ms (457 modules)
+ GET / 500 in 132ms
+ ○ Compiling /_error ...
+ GET / 500 in 2578ms
+ ✓ Compiled /_error in 465ms (1284 modules)
+ ✓ Compiled in 375ms (1284 modules)
+ ✓ Compiled in 662ms (1284 modules)
+ ✓ Compiled in 280ms (722 modules)
+ ✓ Compiled in 794ms (722 modules)
+ ✓ Compiled in 317ms (722 modules)
+ ✓ Compiled in 855ms (1282 modules)
+[?25h

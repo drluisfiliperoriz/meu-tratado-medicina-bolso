@@ -1,0 +1,98 @@
+ ⨯ Error: The default export is not a React Component in page: "/"
+    at async Promise.all (index 0)
+digest: "1111112507"
+ ⨯ Error: The default export is not a React Component in page: "/"
+    at async Promise.all (index 0)
+digest: "1111112507"
+ ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/ui/SearchBox'
+[0m [90m 3 |[39m [36mimport[39m { useState } [36mfrom[39m [32m'react'[39m[33m;[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { motion } [36mfrom[39m [32m'framer-motion'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m [33mSearchBox[39m [36mfrom[39m [32m'../components/ui/SearchBox'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m [36mimport[39m [33mResponseDisplay[39m [36mfrom[39m [32m'../components/ui/ResponseDisplay'[39m[33m;[39m[0m
+[0m [90m 7 |[39m [36mimport[39m [33mBookIndex[39m [36mfrom[39m [32m'../components/ui/BookIndex'[39m[33m;[39m[0m
+[0m [90m 8 |[39m [36mimport[39m [33mErrorBoundary[39m [36mfrom[39m [32m'../components/ui/ErrorBoundary'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/ui/SearchBox'
+[0m [90m 3 |[39m [36mimport[39m { useState } [36mfrom[39m [32m'react'[39m[33m;[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { motion } [36mfrom[39m [32m'framer-motion'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m [33mSearchBox[39m [36mfrom[39m [32m'../components/ui/SearchBox'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m [36mimport[39m [33mResponseDisplay[39m [36mfrom[39m [32m'../components/ui/ResponseDisplay'[39m[33m;[39m[0m
+[0m [90m 7 |[39m [36mimport[39m [33mBookIndex[39m [36mfrom[39m [32m'../components/ui/BookIndex'[39m[33m;[39m[0m
+[0m [90m 8 |[39m [36mimport[39m [33mErrorBoundary[39m [36mfrom[39m [32m'../components/ui/ErrorBoundary'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '../components/ui/SearchBox'
+[0m [90m 3 |[39m [36mimport[39m { useState } [36mfrom[39m [32m'react'[39m[33m;[39m[0m
+[0m [90m 4 |[39m [36mimport[39m { motion } [36mfrom[39m [32m'framer-motion'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m [33mSearchBox[39m [36mfrom[39m [32m'../components/ui/SearchBox'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 6 |[39m [36mimport[39m [33mResponseDisplay[39m [36mfrom[39m [32m'../components/ui/ResponseDisplay'[39m[33m;[39m[0m
+[0m [90m 7 |[39m [36mimport[39m [33mBookIndex[39m [36mfrom[39m [32m'../components/ui/BookIndex'[39m[33m;[39m[0m
+[0m [90m 8 |[39m [36mimport[39m [33mErrorBoundary[39m [36mfrom[39m [32m'../components/ui/ErrorBoundary'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/page.tsx:6:1
+Module not found: Can't resolve '../components/ui/ResponseDisplay'
+[0m [90m 4 |[39m [36mimport[39m { motion } [36mfrom[39m [32m'framer-motion'[39m[33m;[39m[0m
+[0m [90m 5 |[39m [36mimport[39m [33mSearchBox[39m [36mfrom[39m [32m'../components/ui/SearchBox'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m [33mResponseDisplay[39m [36mfrom[39m [32m'../components/ui/ResponseDisplay'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 7 |[39m [36mimport[39m [33mBookIndex[39m [36mfrom[39m [32m'../components/ui/BookIndex'[39m[33m;[39m[0m
+[0m [90m 8 |[39m [36mimport[39m [33mErrorBoundary[39m [36mfrom[39m [32m'../components/ui/ErrorBoundary'[39m[33m;[39m[0m
+[0m [90m 9 |[39m [36mimport[39m [33mLoadingSpinner[39m [36mfrom[39m [32m'../components/ui/LoadingSpinner'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/page.tsx:7:1
+Module not found: Can't resolve '../components/ui/BookIndex'
+[0m [90m  5 |[39m [36mimport[39m [33mSearchBox[39m [36mfrom[39m [32m'../components/ui/SearchBox'[39m[33m;[39m[0m
+[0m [90m  6 |[39m [36mimport[39m [33mResponseDisplay[39m [36mfrom[39m [32m'../components/ui/ResponseDisplay'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m  7 |[39m [36mimport[39m [33mBookIndex[39m [36mfrom[39m [32m'../components/ui/BookIndex'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  8 |[39m [36mimport[39m [33mErrorBoundary[39m [36mfrom[39m [32m'../components/ui/ErrorBoundary'[39m[33m;[39m[0m
+[0m [90m  9 |[39m [36mimport[39m [33mLoadingSpinner[39m [36mfrom[39m [32m'../components/ui/LoadingSpinner'[39m[33m;[39m[0m
+[0m [90m 10 |[39m [36mimport[39m indiceData [36mfrom[39m [32m'../data/indice.json'[39m[33m;[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/page.tsx:8:1
+Module not found: Can't resolve '../components/ui/ErrorBoundary'
+[0m [90m  6 |[39m [36mimport[39m [33mResponseDisplay[39m [36mfrom[39m [32m'../components/ui/ResponseDisplay'[39m[33m;[39m[0m
+[0m [90m  7 |[39m [36mimport[39m [33mBookIndex[39m [36mfrom[39m [32m'../components/ui/BookIndex'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m [33mErrorBoundary[39m [36mfrom[39m [32m'../components/ui/ErrorBoundary'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m  9 |[39m [36mimport[39m [33mLoadingSpinner[39m [36mfrom[39m [32m'../components/ui/LoadingSpinner'[39m[33m;[39m[0m
+[0m [90m 10 |[39m [36mimport[39m indiceData [36mfrom[39m [32m'../data/indice.json'[39m[33m;[39m[0m
+[0m [90m 11 |[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '../components/ui/LoadingSpinner'
+[0m [90m  7 |[39m [36mimport[39m [33mBookIndex[39m [36mfrom[39m [32m'../components/ui/BookIndex'[39m[33m;[39m[0m
+[0m [90m  8 |[39m [36mimport[39m [33mErrorBoundary[39m [36mfrom[39m [32m'../components/ui/ErrorBoundary'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m  9 |[39m [36mimport[39m [33mLoadingSpinner[39m [36mfrom[39m [32m'../components/ui/LoadingSpinner'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m [36mimport[39m indiceData [36mfrom[39m [32m'../data/indice.json'[39m[33m;[39m[0m
+[0m [90m 11 |[39m[0m
+[0m [90m 12 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mHome[39m() {[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./app/page.tsx:9:1
+Module not found: Can't resolve '../components/ui/LoadingSpinner'
+[0m [90m  7 |[39m [36mimport[39m [33mBookIndex[39m [36mfrom[39m [32m'../components/ui/BookIndex'[39m[33m;[39m[0m
+[0m [90m  8 |[39m [36mimport[39m [33mErrorBoundary[39m [36mfrom[39m [32m'../components/ui/ErrorBoundary'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m  9 |[39m [36mimport[39m [33mLoadingSpinner[39m [36mfrom[39m [32m'../components/ui/LoadingSpinner'[39m[33m;[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m [36mimport[39m indiceData [36mfrom[39m [32m'../data/indice.json'[39m[33m;[39m[0m
+[0m [90m 11 |[39m[0m
+[0m [90m 12 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mHome[39m() {[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+warn - The `content` option in your Tailwind CSS configuration is missing or empty.
+warn - Configure your content sources or your generated CSS will be missing styles.
+warn - https://tailwindcss.com/docs/content-configuration

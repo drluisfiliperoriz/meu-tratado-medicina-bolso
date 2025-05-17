@@ -1,0 +1,13 @@
+yarn install v1.22.22
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+yarn run v1.22.22
+$ next dev
+   ▲ Next.js 15.3.2
+   - Local:        http://localhost:3000
+   - Network:      http://100.116.148.212:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 7s

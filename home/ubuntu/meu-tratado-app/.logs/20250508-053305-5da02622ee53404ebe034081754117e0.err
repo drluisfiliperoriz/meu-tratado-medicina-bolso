@@ -1,0 +1,19 @@
+Failed to compile.
+
+./app/api/chat/route.ts:2:1
+Module not found: Can't resolve 'openai'
+[0m [90m 1 |[39m [36mimport[39m { [33mNextResponse[39m } [36mfrom[39m [32m'next/server'[39m[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m [33mOpenAI[39m [36mfrom[39m [32m'openai'[39m[33m;[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 3 |[39m[0m
+[0m [90m 4 |[39m [36mexport[39m [36mconst[39m runtime [33m=[39m [32m'edge'[39m[33m;[39m[0m
+[0m [90m 5 |[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+../../../../opt/hostedapp/node/root/node_modules/next/dist/build/webpack/loaders/next-edge-app-route-loader/index.js?absolutePagePath=private-next-app-dir%2Fapi%2Fchat%2Froute.ts&page=%2Fapi%2Fchat%2Froute&appDirLoader=bmV4dC1hcHAtbG9hZGVyP25hbWU9YXBwJTJGYXBpJTJGY2hhdCUyRnJvdXRlJnBhZ2U9JTJGYXBpJTJGY2hhdCUyRnJvdXRlJnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGYXBpJTJGY2hhdCUyRnJvdXRlLnRzJmFwcERpcj0lMkZob21lJTJGdWJ1bnR1JTJGbWV1LXRyYXRhZG8tYXBwJTJGYXBwJTJGYXBwJmFwcFBhdGhzPSUyRmFwaSUyRmNoYXQlMkZyb3V0ZSZwYWdlRXh0ZW5zaW9ucz10c3gmcGFnZUV4dGVuc2lvbnM9dHMmcGFnZUV4dGVuc2lvbnM9anN4JnBhZ2VFeHRlbnNpb25zPWpzJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD0mcHJlZmVycmVkUmVnaW9uPSZtaWRkbGV3YXJlQ29uZmlnPWUzMCUzRCE%3D&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
+
+
+> Build failed because of webpack errors
+error Command failed with exit code 1.
