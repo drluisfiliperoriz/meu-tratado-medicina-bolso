@@ -15,12 +15,17 @@ export function ChatInterface() {
     setIsLoading(true);
 
     try {
+      const apiKey = localStorage.getItem('openai-api-key');
+      if (!apiKey) {
+        throw new Error('Chave API não encontrada');
+      }
+
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ prompt }),
+        body: JSON.stringify({ message: prompt, apiKey }),
       });
 
       if (!res.ok) {
@@ -29,7 +34,7 @@ export function ChatInterface() {
       }
 
       const data = await res.json();
-      setResponse(data.choices[0].message.content);
+      setResponse(data.response);
     } catch (err: any) {
       setError(err.message);
     } finally {
