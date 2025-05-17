@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ErrorMessage } from './ui/error-message';
 
 export function ChatInterface() {
@@ -15,11 +15,8 @@ export function ChatInterface() {
     setIsLoading(true);
 
     try {
-      const apiKey = localStorage.getItem('openai-api-key');
-      if (!apiKey) {
-        throw new Error('Chave API não encontrada');
-      }
-
+      const apiKey = localStorage.getItem('openaiApiKey');
+      
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: {
